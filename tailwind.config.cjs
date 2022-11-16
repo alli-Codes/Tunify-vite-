@@ -5,6 +5,10 @@ module.exports = {
     colors: {
       primary: "#00D38B",
     },
+    fontFamily: {
+      body: "lato",
+      display: "poppins",
+    },
     // extend: {
 
     // },
