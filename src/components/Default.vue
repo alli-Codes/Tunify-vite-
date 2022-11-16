@@ -3,12 +3,14 @@ import Header from "./Header.vue";
 
 export default {
   name: "Default",
-  components: Header,
+  components: {
+    Header,
+  },
 };
 </script>
 
 <template>
-  <div class="">
+  <div class="h-20 w-full">
     <Header />
   </div>
 </template>
