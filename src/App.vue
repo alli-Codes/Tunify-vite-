@@ -5,6 +5,7 @@ import Default from "./components/Default.vue";
 export default {
   name: "App",
   components: {
+    Icon,
     Default,
   },
 };
