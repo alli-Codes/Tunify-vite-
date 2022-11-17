@@ -22,6 +22,11 @@ export default {
     FavoriteIcon,
     PlaylistIcon,
   },
+  data() {
+    return {
+      activeColor: "#00D38B",
+    };
+  },
 };
 </script>
 
@@ -32,7 +37,9 @@ export default {
         <p class="px-5 text-[#C4C4C4] text-[10px]">BROWSER</p>
         <nav class="bg-green-40 flex flex-col gap-4 text-xs">
           <a href="#"><HomeIcon class="w-4" />Home</a>
-          <a href="#" class="active"><ExploreIcon class="w-4" />Explore</a>
+          <a href="#" class="active"
+            ><ExploreIcon class="w-4" :activeColor="activeColor" />Explore</a
+          >
           <a href="#"><SongsIcon class="w-4" /> Songs</a>
           <a href="#"><ArtistIcon class="w-4" />Artists</a>
           <a href="#"><AlbumIcon class="w-4" />Albums</a>
