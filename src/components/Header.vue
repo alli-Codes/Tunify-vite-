@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-  <header class="w-full px-4 flex justify-center">
+  <header class="w-full bg-white px-4 flex justify-center sticky z-[1000]">
     <div class="h-20 w-full flex justify-between items-center gap-4">
       <div class="flex items-center gap-4">
         <Hamburger class="w-5" />
