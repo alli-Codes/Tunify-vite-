@@ -55,6 +55,11 @@ export default {
           <a href="#"><PlaylistIcon class="w-4" />Playlists</a>
         </nav>
       </section>
+
+      <section class="pt-10 pl-6 flex flex-col gap-8">
+        <img src="/images/g-store-light.png" class="w-32" alt="" />
+        <img src="/images/a-store-light.png" class="w-32" alt="" />
+      </section>
     </div>
   </div>
 </template>
