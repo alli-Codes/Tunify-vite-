@@ -31,7 +31,7 @@ export default {
 </script>
 
 <template>
-  <div class="h-full w-[20rem] bg-[#FFF8F8] absolute top-0">
+  <div class="h-full w-[20rem] bg-[#FFF8F8] absolute top-0 overflow-auto">
     <div class="bg-red-40 font-body flex flex-col relative top-20">
       <section class="pt-10 flex flex-col gap-10">
         <p class="px-5 text-[#C4C4C4] text-[10px]">BROWSER</p>
@@ -56,7 +56,7 @@ export default {
         </nav>
       </section>
 
-      <section class="pt-10 pl-6 flex flex-col gap-8">
+      <section class="py-10 pl-6 flex flex-col gap-8">
         <img src="/images/g-store-light.png" class="w-32" alt="" />
         <img src="/images/a-store-light.png" class="w-32" alt="" />
       </section>
