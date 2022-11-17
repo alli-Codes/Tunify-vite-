@@ -10,7 +10,5 @@ export default {
 </script>
 
 <template>
-  <div class="h-20 w-full">
-    <Header />
-  </div>
+  <Header />
 </template>
