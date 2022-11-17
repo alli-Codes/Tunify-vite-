@@ -15,15 +15,20 @@ export default {
 </script>
 
 <template>
-  <div class="header h-20 w-full bg-red-400 flex flex-row">
-    <Hamburger />
-    <h2 class="text-primary text-2xl font-body">TUNIFY</h2>
-    <div class="search__section">
-      <input type="text" />
+  <header class="w-full px-4 flex justify-center">
+    <div class="h-20 w-full flex justify-between items-center gap-4">
+      <div class="flex items-center gap-4">
+        <Hamburger class="w-5" />
+        <h2 class="text-primary text-2xl font-body">T</h2>
+      </div>
+      <div class="search__section font-body">
+        <input type="text" placeholder="Search for songs,.." />
+      </div>
+      <div class="user__section flex items-center gap-3">
+        <Notification class="w-5" />
+        <Cog class="w-5" />
+        <span class="user__image w-5 h-5 bg-primary rounded-full"></span>
+      </div>
     </div>
-    <div class="user__section">
-      <Notification />
-      <Cog />
-    </div>
-  </div>
+  </header>
 </template>

@@ -2,16 +2,15 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    colors: {
-      primary: "#00D38B",
+    extend: {
+      colors: {
+        primary: "#00D38B",
+      },
+      fontFamily: {
+        body: "lato",
+        display: "poppins",
+      },
     },
-    fontFamily: {
-      body: "lato",
-      display: "poppins",
-    },
-    // extend: {
-
-    // },
   },
   plugins: [],
 };
