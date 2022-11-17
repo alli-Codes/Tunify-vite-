@@ -58,6 +58,8 @@ nav a {
   padding: 0.5rem 1rem;
   border-left: 5px solid transparent;
   font-weight: bold;
+  display: flex;
+  gap: 0.5rem;
 }
 
 nav .active {
